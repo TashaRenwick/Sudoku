@@ -1,10 +1,12 @@
-class _Counter:
+class Counter:
     def __init__(self, target_value):
-        print('beginning to count')
-        pass
+        self.target_value = target_value
+
+    def start_counter(self):
+        counter = 0
 
 
-class StitchTracker(_Counter):
+class StitchTracker(Counter):
     def __init__(self, row):
         print("Creating instance of 'Tracker'")
 
