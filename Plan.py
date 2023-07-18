@@ -12,6 +12,7 @@ Development plan:
 1. Create basic while loop (tick!)
 2. Create class that can be instantiated that runs this basic loop (tick!)
 
+- Use dictionary to take in different key entries for what to do in while loop...
 - Create counter class?? Separate to "stitch tracker" class, so I can have multiple counters for rows and stitches
 - How to ingest pattern? csv? json? manually?
 - How to save progress?
