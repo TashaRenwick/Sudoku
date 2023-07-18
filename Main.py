@@ -1,4 +1,10 @@
-class Counter:
+class _Counter:
+    def __init__(self, target_value):
+        print('beginning to count')
+        pass
+
+
+class StitchTracker(_Counter):
     def __init__(self, row):
         print("Creating instance of 'Counter'")
         self.row = int(input("Please enter number of rows: "))
@@ -17,8 +23,8 @@ class Counter:
         return None
 
 
-counter = Counter(10)
+tracker = StitchTracker(10)
 
-counter.start_counter()
+tracker.start_counter()
 
 
