@@ -1,0 +1,27 @@
+{
+    "pattern": [
+        [
+            "6 norm sc",
+            [
+                "norm sc",
+                "norm sc",
+                "norm sc",
+                "norm sc",
+                "norm sc",
+                "norm sc"
+            ]
+        ],
+        [
+            "5 norm sc",
+            [
+                "norm sc",
+                "norm sc",
+                "norm sc",
+                "norm sc",
+                "norm sc"
+            ]
+        ]
+    ],
+    "row_index": 0,
+    "stitch_index": 1
+}
